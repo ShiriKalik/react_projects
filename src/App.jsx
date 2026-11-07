@@ -4,6 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Parent from './Components/Parent'
+import PersonDetails from './Components/PersonDetails'
+import Books from './Components/Books'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,11 @@ function App() {
   return (
     <>
    
-    <Parent> </Parent>
+    {/* <Parent> </Parent> */}
+
+    {/* <PersonDetails> </PersonDetails> */}
+
+    <Books></Books>
     </>
   )
 }
